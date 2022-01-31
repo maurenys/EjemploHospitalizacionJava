@@ -3,6 +3,8 @@ package hospitalizacion;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.validator.PublicClassValidator;
+
 public class Principal {
 
 	public static void main(String[] args) {
@@ -106,7 +108,15 @@ public class Principal {
 	                        "\nFecha de entrega : " +pedido1.getFechaEntrega()+
 			                "\nPaciente: " + pedido1.getPaciente().getNombre()+
 			                "\nRealizado por : " + pedido1.getProfesional().getNombre() +
-			                "\nInsumos : " + pedidoSemana);	    
+			                "\nInsumos : " + pedidoSemana);	 
+					
+					
+					
+	}
+	
+	
+	public static int getValor(){
+		return 12;
 	}
 } 
 
